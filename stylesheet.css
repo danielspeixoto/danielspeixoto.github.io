@@ -146,6 +146,12 @@ span {
 	background-position: center;
 }
 
+.privacy {
+	background-image: url("images/privacy-back.png");
+	background-size: cover;
+	background-position: center;
+}
+
 .virtual {
 	background-image: url("images/virtualback.jpg");
 	background-color: blue;
