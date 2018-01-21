@@ -101,6 +101,11 @@ h1 {
 	padding: 20px;
 	border-style: solid;
 	border-width: thin;
+	color: black;
+}
+
+.link-box:hover {
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 span {
@@ -112,6 +117,12 @@ span {
 	font-size: 3vh;
 }
 
+.ihc {
+	background-image: url("images/ihc-back.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
 #webcam {
 	background-image: url("images/webcam-back.jpg");
 	background-size: cover;
@@ -120,6 +131,20 @@ span {
 
 #social {
 	background-image: url("images/social-back.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.coertion {
+	background-image: url("images/coertion-back.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.virtual {
+	background-image: url("images/virtualback.jpg");
+	background-color: blue;
 	background-size: cover;
 	background-position: center;
 }
