@@ -83,10 +83,14 @@ h1 {
 
 .page-content {
 	top: 30%;
-	margin: 5%;
+	margin: 5% auto;
+	/* margin: 5%; */
 	margin-top: 35vh;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 30px;
+	max-width: 700px;
+	width: 70%;
+	height: fit-content;
 }
 
 .text-content {
@@ -98,6 +102,7 @@ h1 {
 
 .link-box {
 	margin: 30px;
+	margin-top: 50px;
 	padding: 20px;
 	border-style: solid;
 	border-width: thin;
